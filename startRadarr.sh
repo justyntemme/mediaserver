@@ -1,5 +1,6 @@
 docker run -d \
   --name=radarr \
+  --net=host \
   -e PUID=964 \
   -e PGID=964 \
   -p 7878:7878 \

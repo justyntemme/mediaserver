@@ -1,5 +1,6 @@
 docker run -d \
   --name=prowlarr \
+  --net=host \
   -e PUID=964 \
   -e PGID=964 \
   -p 9696:9696 \
