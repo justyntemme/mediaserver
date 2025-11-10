@@ -1,4 +1,5 @@
 docker run \
+  -d \
   -v "/home/user/.config/tunarr:/config/tunarr" \
   -v "/home/user/.config/.dizquetv:/.dizquetv" \
   -p 8000:8000 \
