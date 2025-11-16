@@ -7,5 +7,6 @@ docker run \
   -v "/home/user/.config/.dizquetv:/.dizquetv" \
   -v "/mnt/nfs/media/TV/:/tv" \
   -v "/mnt/nfs/media/Movies/:/movies" \
+  --restart unless-stopped \
   chrisbenincasa/tunarr
 # -e "TZ=America/Chicago" \
